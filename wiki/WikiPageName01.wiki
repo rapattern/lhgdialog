@@ -1,7 +1,0 @@
-窗口lhgdialog.min.js文件的url参数(3.4.0新增)
-参数形式为：<script type="text/javascript" src="lhgdialog.min.js?t=self&s=chrome"></script>
-t：指定弹出窗口的页面(替代原来的第22个参数SetTopWindow)
-参数值：self，在当前页面弹出窗口。此参数只用在框架页面中，如果不写此参数则窗口跨框架弹出在框架最顶层页面，如果值为self则不跨框架，而在当前面页弹出。
-s：窗口使用的皮肤的名称(3.5.0修改)
-参数值：默认default，不写此参数则值为default。如果你想在同一页面使用不同皮肤的窗口，就要把你要使用的皮肤的名称都写上，中间用","隔开，例如：lhgdialog.min.js?s=default,chrome，此参数用来动态给窗口换肤，参数的值为skins文件夹下各皮肤文件夹的名，具体使用方法请参阅皮肤制作
-url参数不需要设定的就可以不写，不写时就使用默认值。
